@@ -110,9 +110,6 @@
     <ClInclude Include="Program\Input\InputState.h">
       <Filter>Program\Input</Filter>
     </ClInclude>
-    <ClInclude Include="Program\Application\Sample\SharedData.h">
-      <Filter>Program\Application\Sample</Filter>
-    </ClInclude>
     <ClInclude Include="Program\Time\FrameRateController.h">
       <Filter>Program\Time</Filter>
     </ClInclude>
@@ -135,6 +132,9 @@
       <Filter>Program\Rendering</Filter>
     </ClInclude>
     <ClInclude Include="Program\Application\Sample\SceneSenderData.h">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\SceneSharedData.h">
       <Filter>Program\Application\Sample\Scene</Filter>
     </ClInclude>
   </ItemGroup>

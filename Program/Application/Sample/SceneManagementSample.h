@@ -6,9 +6,9 @@
 #include "../../Message/MessageDispatcher.h"
 #include "../../Scene/SceneManager.h"
 #include "SceneCreator.h"
+#include "SceneSharedData.h"
 #include "../../Input/InputState.h"
 #include "../../Time/FrameRateController.h"
-#include "SharedData.h"
 
 namespace rsk::application::sample
 {
@@ -28,8 +28,8 @@ namespace rsk::application::sample
         message::MessageDispatcher  m_message_dispatcher;
         scene::SceneManager         m_scene_manager;
         SceneCreator                m_scene_creator;
+        SceneSharedData             m_shared_data;
         input::InputState           m_input_state;
         time::FrameRateController   m_frame_rate_controller;
-        SharedData                  m_shared_data;
     };
 }

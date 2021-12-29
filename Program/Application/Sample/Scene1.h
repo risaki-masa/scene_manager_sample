@@ -1,7 +1,7 @@
 #pragma once
 
 #include "../../Scene/Scene.h"
-#include "SharedData.h"
+#include "SceneSharedData.h"
 
 namespace rsk::application::sample
 {

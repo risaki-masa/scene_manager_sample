@@ -42,7 +42,7 @@
     <ClInclude Include="Program\Application\Sample\SceneManagementSample.h" />
     <ClInclude Include="Program\Application\Sample\SceneSenderData.h" />
     <ClInclude Include="Program\Application\Sample\SceneType.h" />
-    <ClInclude Include="Program\Application\Sample\SharedData.h" />
+    <ClInclude Include="Program\Application\Sample\SceneSharedData.h" />
     <ClInclude Include="Program\Input\InputState.h" />
     <ClInclude Include="Program\Input\VirtualKeyCode.h" />
     <ClInclude Include="Program\Message\MessageDispatcher.h" />

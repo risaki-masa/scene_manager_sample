@@ -27,7 +27,7 @@ Scene2::Scene2(
 /// <returns>初期化に成功したか判別する値</returns>
 bool Scene2::OnInitialize( const std::any& SHARED_DATA ) 
 {
-    const auto CAST_DATA    = std::any_cast<SharedData*>( SHARED_DATA );
+    const auto CAST_DATA    = std::any_cast<SceneSharedData*>( SHARED_DATA );
     m_renderer              = CAST_DATA->m_renderer;
     m_input_state           = CAST_DATA->m_input_state;
 
@@ -43,7 +43,7 @@ bool Scene2::OnUpdate()
     if ( !m_can_update ) 
     { 
         // シーンを除いた瞬間に m_can_update を true にすると、
-        // 全てのシーンが除かれてしまうため、1フレーム待機してから true にする
+        // IsPressed( input::VirtualKeyCode::R ) により全てのシーンが除かれてしまうため、1フレーム待機してから true にする
         if ( m_is_updating_from_next ) 
         {
             m_is_updating_from_next = false;
