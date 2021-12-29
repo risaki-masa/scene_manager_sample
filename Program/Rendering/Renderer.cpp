@@ -66,7 +66,7 @@ void Renderer::Clear()
 }
 
 /// <summary>
-/// バックバッファからフロントバッファへコピー
+/// バックバッファからフロントバッファへ複製
 /// </summary>
 void Renderer::CopyFromBackBufferToFrontBuffer() 
 {
