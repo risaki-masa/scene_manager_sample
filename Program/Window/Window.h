@@ -32,7 +32,5 @@ namespace rsk::window
         HINSTANCE       m_instance_handle   = nullptr;
         HWND            m_window_handle     = nullptr;
         std::wstring    m_name              = L"";
-        int             m_width             = 0;
-        int             m_height            = 0;
     };
 }

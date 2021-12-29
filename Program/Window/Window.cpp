@@ -19,8 +19,6 @@ bool Window::Create( const wchar_t* NAME, const int WIDTH, const int HEIGHT )
 
     m_instance_handle   = GetModuleHandle( nullptr );
     m_name              = NAME;
-    m_width             = WIDTH;
-    m_height            = HEIGHT;
 
     if ( !AddClass() ) return false;
 
@@ -64,8 +62,6 @@ void Window::Destroy()
 
     ::DestroyWindow( m_window_handle );
     m_window_handle = nullptr;
-    m_width         = 0;
-    m_height        = 0;
 
     RemoveClass();
 }
