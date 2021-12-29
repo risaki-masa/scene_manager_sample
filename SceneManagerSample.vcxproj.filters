@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Program">
+      <UniqueIdentifier>{1ecd04bf-2424-4c12-9e61-71ec8d4da448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Application">
+      <UniqueIdentifier>{e6036888-7137-46f9-a8c0-87d32daee490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Scene">
+      <UniqueIdentifier>{ef561f3f-e2dc-4766-b702-5b1e86190521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Application\Sample">
+      <UniqueIdentifier>{d105b131-0459-4372-bd93-73a8bafb2699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Window">
+      <UniqueIdentifier>{c720b84d-3c1f-4616-9280-a43cf9ef7d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Input">
+      <UniqueIdentifier>{1642c8f6-8926-4af8-962b-aff6d5532aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Application\Sample\Scene">
+      <UniqueIdentifier>{541e2583-eb78-4770-ba44-a95e20f8ca06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Message">
+      <UniqueIdentifier>{95d458cc-ef39-473b-91b0-df66716819d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Time">
+      <UniqueIdentifier>{a6735db2-2fe6-4dc7-afd0-507faf61a6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Program\Rendering">
+      <UniqueIdentifier>{ca004041-df3e-4bf3-b85a-aabaa02cfcf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program\Application\Application.cpp">
+      <Filter>Program\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Application\Sample\SceneManagementSample.cpp">
+      <Filter>Program\Application\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Scene\Scene.cpp">
+      <Filter>Program\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Scene\SceneChanger.cpp">
+      <Filter>Program\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Scene\SceneManager.cpp">
+      <Filter>Program\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Window\Window.cpp">
+      <Filter>Program\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Message\MessageDispatcher.cpp">
+      <Filter>Program\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Input\InputState.cpp">
+      <Filter>Program\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Time\FrameRateController.cpp">
+      <Filter>Program\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Application\Sample\Scene1.cpp">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Application\Sample\Scene2.cpp">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Application\Sample\SceneCreator.cpp">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Rendering\Renderer.cpp">
+      <Filter>Program\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Main.cpp">
+      <Filter>Program</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program\Application\Application.h">
+      <Filter>Program\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\SceneManagementSample.h">
+      <Filter>Program\Application\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Scene\ISceneChangeable.h">
+      <Filter>Program\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Scene\ISceneCreatable.h">
+      <Filter>Program\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Scene\Scene.h">
+      <Filter>Program\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Scene\SceneManager.h">
+      <Filter>Program\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Scene\SceneTypeHolder.h">
+      <Filter>Program\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Window\Window.h">
+      <Filter>Program\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Message\MessageDispatcher.h">
+      <Filter>Program\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Input\VirtualKeyCode.h">
+      <Filter>Program\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Input\InputState.h">
+      <Filter>Program\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\SharedData.h">
+      <Filter>Program\Application\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Time\FrameRateController.h">
+      <Filter>Program\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\Scene1.h">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\Scene2.h">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\SceneType.h">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\SceneCreator.h">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Rendering\Renderer.h">
+      <Filter>Program\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Rendering\IRenderer.h">
+      <Filter>Program\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Application\Sample\SceneSenderData.h">
+      <Filter>Program\Application\Sample\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
